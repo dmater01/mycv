@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My contact detials</h1>
+    <ul>
+        <li>E-mail Address <a href=mailto:"ken.terry@gmail.com">E-mail</a></li>
+        <li>Phone Number <a href="sms:111-222-3333"> Message</a></li>
+        <li>Whats App <a href="http://wa.me/919911111111.">Whatsapp me</a></li>
+    </ul>
+
+<hr>
+<form class="" action="mailto:Ken.terry@gmail.com" method="post"><br>
+    <label for = "user"> Your name:</label>
+    <input name="user" type="text" id ="user" > <br>
+    <label for = "e-mail"> Your E-mal Address:</label>
+    <input name= "e-mail" type=email id=e-mail > <br>
+    <label for="phone">Enter your phone number:</label>
+    <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required> 
+       <small>Format: 123-456-7890</small> <br> <br>
+       <label for="message area"> Enter a Message</label> <br>
+       <textarea name="name" rows="10" cols="30"></textarea> <br>
+    <input name=button type="submit">
+</form>
+</body>
+</html>
